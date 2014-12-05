@@ -50,7 +50,7 @@ public class Main {
                 "    },\n" +
                 "    \"Version\": 1\n" +
                 "}";
-        String token = getToken("EVQUjJyrDwsOppR03FFVTRApu8u8Knlr", "F6fi7ttRP57SSVwh");
+        String token = getToken("you consumer key", "you consumer secret");
         System.out.print("Submitting workitem...");
         WorkItemId workItemId = submitWorkItem(token, content);
         System.out.println("Ok.");
@@ -68,6 +68,7 @@ public class Main {
         if (status.compareTo("Succeeded")==0)
             downloadResults(token, workItemId);
     }
+    //obtain authorization token
     static String getToken(String consumerKey, String consumerSecret) throws IOException, ParseException {
         String url = "https://developer.api.autodesk.com/authentication/v1/authenticate";
         HttpPost post =   new HttpPost(url);
@@ -95,6 +96,7 @@ public class Main {
         public String id;
         public String userId;
     }
+    //submit the workitem described by 'content' parameter. Returns the id of the workitem
     static WorkItemId submitWorkItem(String token, String content) throws IOException, ParseException {
         String url = "https://developer.api.autodesk.com/autocad.io/v1/WorkItems";
         HttpPost post =   new HttpPost(url);
@@ -122,6 +124,7 @@ public class Main {
         return wid;
 
     }
+    //polls the workitem for its status. Returns the status.
     static String pollWorkItem(String token, WorkItemId id) throws IOException, ParseException {
         String url = String.format("https://developer.api.autodesk.com/autocad.io/v1/WorkItems(Id='%s',UserId='%s')/Status", id.id, id.userId);
         HttpGet get =   new HttpGet(url);
@@ -144,6 +147,7 @@ public class Main {
         JSONObject jsonObj = (JSONObject) jsonParser.parse(br);
         return (String)jsonObj.get("value");
     }
+    //downloads the workitem results and status report.
     static void downloadResults(String token, WorkItemId id) throws IOException, ParseException {
         String url = String.format("https://developer.api.autodesk.com/autocad.io/v1/WorkItems(Id='%s',UserId='%s')", id.id, id.userId);
         //URLEncoder.encode()
@@ -172,6 +176,7 @@ public class Main {
         downloadFile(reportUrl, "report.txt");
 
     }
+    //help function: downloads a file from an url
     static void downloadFile(String url, String fname) throws IOException {
         HttpClient client = new SystemDefaultHttpClient();
         HttpResponse response = client.execute(new HttpGet(url));
