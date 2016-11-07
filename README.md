@@ -1,29 +1,31 @@
-#autocad.io-simplest-java
+# design-automation-api-java0dwg-plot-to-pdf
 
 [![odata](https://img.shields.io/badge/odata-4.0-yellow.svg)](http://www.odata.org/documentation/)
 [![ver](https://img.shields.io/badge/AutoCAD.io-2.0.0-blue.svg)](https://developer.autodesk.com/api/autocadio/v2/)
 [![License](http://img.shields.io/:license-mit-red.svg)](http://opensource.org/licenses/MIT)
 
-##Description
+## Description
 
 This is the simplest Java client that uses the predefined PlotToPDF activity. It uses direct HTTP request to call AutoCAD.IO.
 
-##Dependencies
+## Dependencies
 
-IntelliJ 14
+- [IntelliJ 14](http://www.jetbrains.com/idea/).
 
-##Setup/Usage Instructions
+## Setup/Usage Instructions
 
-Please refer to [AutoCAD.IO V2 API documentation](https://developer.autodesk.com/api/autocadio/v2/#tutorials).
+Please refer to [Autodesk Forge Design Automation API documentation](https://developer.autodesk.com/en/docs/design-automation/v2/tutorials/).
 
 ## Questions
 
-Please post your question at our [forum](http://forums.autodesk.com/t5/autocad-i-o/bd-p/105).
+Please post your questions to [StackOverflow using the `autodesk-designautomation` tag](http://stackoverflow.com/questions/tagged/autodesk-designautomation).
 
 ## License
 
-These samples are licensed under the terms of the [MIT License](http://opensource.org/licenses/MIT). Please see the [LICENSE](LICENSE) file for full details.
+These samples are licensed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+Please see the [LICENSE](LICENSE) file for full details.
 
-##Written by 
+## Authors
 
-Jonathan Miao
+- Jonathan Miao
+- Jeremy Tammik migrated to Design Automation API 2016-11-07.
