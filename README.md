@@ -8,7 +8,7 @@
 
 This is the simplest Java client that uses the predefined PlotToPDF activity.
 
-It uses direct HTTP request to call the [Autodesk Forge Design Automation API](https://developer.autodesk.com/en/docs/design-automation/).
+It uses direct HTTP request to call the [Autodesk Forge Design Automation API](https://developer.autodesk.com/en/docs/design-automation/v2/overview/).
 
 ## Dependencies
 
