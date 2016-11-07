@@ -16,7 +16,8 @@ It uses direct HTTP request to call the [Autodesk Forge Design Automation API](h
 
 ## Setup/Usage Instructions
 
-Please refer to the [Design Automation API tutorials](https://developer.autodesk.com/en/docs/design-automation/v2/tutorials/).
+Please refer to the [Design Automation API tutorials](https://developer.autodesk.com/en/docs/design-automation/v2/tutorials/)
+and how to [convert a DWG to a PDF file](https://developer.autodesk.com/en/docs/design-automation/v2/tutorials/convert-dwg-to-pdf/).
 
 ## Questions
 
