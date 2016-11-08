@@ -6,9 +6,9 @@
 
 ## Description
 
-This is the simplest Java client that uses the predefined `PlotToPDF` activity.
+This is a very simple Java client that uses the predefined `PlotToPDF` activity.
 
-It uses direct HTTP request to call the [Autodesk Forge Design Automation API](https://developer.autodesk.com/en/docs/design-automation/v2/overview/).
+It issues direct HTTP requests to call the [Autodesk Forge Design Automation API](https://developer.autodesk.com/en/docs/design-automation/v2/overview/).
 
 ## Dependencies
 
@@ -31,4 +31,10 @@ Please see the [LICENSE](LICENSE) file for full details.
 ## Authors
 
 - Jonathan Miao
-- Jeremy Tammik migrated to Design Automation API 2016-11-07.
+- Jeremy Tammik,
+[The Building Coder](http://thebuildingcoder.typepad.com) and
+[The 3D Web Coder](http://the3dwebcoder.typepad.com),
+[ADN](http://www.autodesk.com/adn)
+[Open](http://www.autodesk.com/adnopen),
+[Autodesk Inc.](http://www.autodesk.com)
+&mdash; migrated to Design Automation API 2016-11-07.
