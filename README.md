@@ -19,6 +19,12 @@ It issues direct HTTP requests to call the [Autodesk Forge Design Automation API
 Please refer to the [Design Automation API tutorials](https://developer.autodesk.com/en/docs/design-automation/v2/tutorials/)
 and how to [convert a DWG to a PDF file](https://developer.autodesk.com/en/docs/design-automation/v2/tutorials/convert-dwg-to-pdf/).
 
+Create your Forge app first of all, as described there.
+
+Store your credential in the environement variables `FORGE_CLIENT_ID` and `FORGE_CLIENT_SECRET`.
+ 
+The Java client will pick them up from there.
+
 ## Questions
 
 Please post your questions to [StackOverflow using the `autodesk-designautomation` tag](http://stackoverflow.com/questions/tagged/autodesk-designautomation).
