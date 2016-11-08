@@ -1,4 +1,4 @@
-# design-automation-api-java-dwg-plot-to-pdf
+# design.automation-java-simple.sample
 
 [![odata](https://img.shields.io/badge/odata-4.0-yellow.svg)](http://www.odata.org/documentation/)
 [![ver](https://img.shields.io/badge/AutoCAD.io-2.0.0-blue.svg)](https://developer.autodesk.com/api/autocadio/v2/)
@@ -6,7 +6,7 @@
 
 ## Description
 
-This is a very simple Java client that uses the predefined `PlotToPDF` activity.
+This is a simple Java client that exercises the predefined `PlotToPDF` activity.
 
 It issues direct HTTP requests to call the [Autodesk Forge Design Automation API](https://developer.autodesk.com/en/docs/design-automation/v2/overview/).
 
@@ -21,7 +21,7 @@ and how to [convert a DWG to a PDF file](https://developer.autodesk.com/en/docs/
 
 Create your Forge app first of all, as described there.
 
-Store your credential in the environement variables `FORGE_CLIENT_ID` and `FORGE_CLIENT_SECRET`.
+Store your credentials in the environement variables `FORGE_CLIENT_ID` and `FORGE_CLIENT_SECRET`.
  
 The Java client will pick them up from there.
 
@@ -37,9 +37,9 @@ Please see the [LICENSE](LICENSE) file for full details.
 ## Authors
 
 - Jonathan Miao
-- Jeremy Tammik,
+- Version 2.0.0 by Jeremy Tammik,
 [The Building Coder](http://thebuildingcoder.typepad.com),
 [ADN](http://www.autodesk.com/adn)
 [Open](http://www.autodesk.com/adnopen),
 [Autodesk Inc.](http://www.autodesk.com)
-&mdash; migrated to Design Automation API 2016-11-07.
+&mdash; migrated to Design Automation API on November 7-8, 2016.
