@@ -32,8 +32,7 @@ Please see the [LICENSE](LICENSE) file for full details.
 
 - Jonathan Miao
 - Jeremy Tammik,
-[The Building Coder](http://thebuildingcoder.typepad.com) and
-[The 3D Web Coder](http://the3dwebcoder.typepad.com),
+[The Building Coder](http://thebuildingcoder.typepad.com),
 [ADN](http://www.autodesk.com/adn)
 [Open](http://www.autodesk.com/adnopen),
 [Autodesk Inc.](http://www.autodesk.com)
